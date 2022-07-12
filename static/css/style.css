@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 288px;
+    width: 100%;
+    background-color: black;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    /* touch-action:none; */
+}
+
+#title {
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+    padding: 15px 0;
+    margin: 10px auto 4px auto;
+    background-color: black;
+    width: 670px;
+    border: solid 1px gray;
+}
+
+#game-field {
+    width: 670px;
+    margin: 0px auto;
+    padding: 0 10px;
+}
+
+#mesh {
+    position: absolute;
+    top: 84px;
+    width: 640px;
+    height: 640px;
+    /* z-index: 10; */
+    padding: 15px;
+}
+
+#othello-board {
+    width: 670px;
+    background-color: black;
+    border: solid 1px gray;
+}
+
+#othello-info {
+    /* width: 650px; */
+    margin: 0px auto;
+    background-color: black;
+    border: solid 1px gray;
+}
+
+#copy-right {
+    position: absolute;
+    bottom: 0;
+    width: 670px;
+    height: 200px;
+    background-color: red;
+}
